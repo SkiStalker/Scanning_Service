@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ScanClient.cs" />
+    <Compile Remove="ScanDto.cs" />
+    <Compile Remove="ScanRequest.cs" />
+    <Compile Remove="ScanService.cs" />
+    <Compile Remove="ScanServiceNetwork.cs" />
+    <Compile Remove="ScanTask.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Разработка C#_Тестовое задание_Забелин Никита.zip" />
+  </ItemGroup>
+
+</Project>
